@@ -526,10 +526,10 @@ a basic HTML file.
 
 Most of these packaging systems do not check to see if files are modified or exist
 within the default document root, which can result in code loss when the packages
-are upgraded.  Experienced system administrators know that there is no expectation
+are upgraded. Experienced system administrators know that there is no expectation
 of the data inside the default document root to remain untouched during upgrades.
 
-You should not use the default document root for any site-critical files.  There is
+You should not use the default document root for any site-critical files. There is
 no expectation that the default document root will be left untouched by the system
 and there is an extremely high possibility that your site-critical data may be lost
 upon updates and upgrades to the nginx packages for your operating system.
