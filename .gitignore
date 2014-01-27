@@ -1,3 +1,4 @@
+/upload.sh
 _build/*
 *.sw*
 *.pyc
