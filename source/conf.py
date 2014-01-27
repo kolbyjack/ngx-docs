@@ -5,6 +5,7 @@ Sphinx Documentation for Nginx
 
 import os
 import sys
+import sphinx_rtd_theme
 
 sys.path.append(os.path.abspath('../_modules'))
 
@@ -28,9 +29,9 @@ pygments_style = 'sphinx'
 
 # -- Options for HTML output ---------------------------------------------------
 
-html_theme = 'default'
+html_theme = 'sphinx_rtd_theme'
 #html_theme_options = {}
-html_theme_path = ['..']
+html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 html_title = None
 html_short_title = 'Ngx CC'
 #html_logo = None
